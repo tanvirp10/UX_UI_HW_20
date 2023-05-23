@@ -1,0 +1,409 @@
+* {
+  font-family: "Courier New";
+  box-sizing: border-box;
+  background-color: #0F0F12;
+  color:#ffffff
+}
+
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+html {
+  scroll-behavior: smooth;
+}
+.description {
+  text-align:left;
+  padding: 30px 10%;
+  width: 60%;
+  font-size: 120%;
+  animation: description 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.arrow {
+  text-align:left;
+  padding: 30px 10%;
+  font-size: 300%;
+}
+li, a, button {
+  font-family: "Georgia";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #0F0F12;
+  color:#0F0F12;
+  font-size:x-large;
+}
+
+.logo {
+  cursor: pointer;
+  background-color: #0F0F12;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  font-size: 130%;
+}
+
+.nav__links li a:hover {
+  color: #4f575e;
+}
+
+.nav__links li:nth-child(1) {
+  padding: 0 20px;
+}
+
+button {
+  padding: 9px 30px;
+  background-color:#252525;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.personallogo img {
+  width: 50%;
+  height: 50%;
+}
+.userresearchcontent, .prototypecontent, .designthinkingcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.titlespace {
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color:#363636;
+}
+
+.excursion {
+  overflow: auto;
+  display:flex; 
+  
+}
+.excursioncontent {
+  display:flex;
+  flex-direction:column;
+  align-items:left;
+  margin:auto;
+}
+
+.aboutmecontent p, .letsconnect p {
+  font-size: 110%;
+}
+.excursioncontent h1, .fttfcontent h1 {
+  font-size: 200%;
+}
+.excursioncontent p, .fttfcontent p {
+  font-size: 125%;
+}
+
+.fttfcontent {
+  display:flex;
+  flex-direction:column;
+  align-items:left;
+  margin:auto;
+}
+.excursionimg {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.fttf {
+  overflow: auto;
+  display:flex;
+  align-items:center;
+  margin:auto;
+}
+.fttfimg {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.mywork {
+  text-align:center;
+  margin-top:50px;
+  margin-bottom: 150px;
+  font-size: 300%;
+}
+
+.mydescription img {
+  width: 400px;
+  height: 500px;
+}
+.mydescription {
+  display:flex;
+  align-items: center;
+}
+.userresearch {
+  display:flex;
+  align-items: center;
+
+}
+.userresearch img{
+  width: 400px;
+  height: 400px;
+
+}
+.prototype {
+  display:flex;
+  align-items: center;
+
+}
+.prototype img{
+  width: 400px;
+  height: 400px;
+
+}
+.designthinking {
+  display:flex;
+  align-items: center;
+}
+.designthinking img {
+  width: 400px;
+  height: 400px;
+}
+.letsconnect img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.main{
+  padding: 30px 10%;
+}
+
+.myworkcard {
+  margin-bottom: 10px;
+  
+
+}
+
+.myworkcard img, .mydescription img {
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+footer {
+  background-color: #0F0F12;
+  color: #ffffff;
+  padding: 4rem 1rem;
+  font-family: "Georgia"; 
+  
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #cccccc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-2 {
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+}
+
+.w-col-2 {
+  width: 16.66666667%;
+}
+.w-col {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.heading {
+font-family: "Courier New";
+color: #87878c;
+font-size: 18px;
+line-height: 160%;
+font-weight: 400;
+}
+.work {
+margin-top: 4px;
+font-family: "Courier New";
+color: #fff;
+font-size: 18px;
+line-height: 160%;
+margin-bottom: 50px;
+}
+
+.footer-main {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.footer-column {
+  flex-basis: 200px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.footer-heading {
+  margin-bottom: 2rem;
+  font-family:Georgia;
+}
+
+.footer-link {
+  display: block;
+  width: max-content;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-main {
+    flex-direction: column;
+  }
+}
+
+
+header {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Description Animation */
+.description {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 0.5s forwards;
+}
+
+/* My Work Animation */
+.mywork {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 1.5s forwards;
+}
+
+/* Main Section Animation */
+section {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 2s forwards;
+}
+
+/* Footer Animation */
+footer {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 2.5s forwards;
+}
+
+
+
+
+/* Header Animation */
+header {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* My Work Animation */
+.mywork {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 0.5s forwards;
+}
+
+/* Main Section Animation */
+.main {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 1s forwards;
+}
+
+/* About Me Section Animation */
+.mydescription {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 1.5s forwards;
+}
+
+/* Let's Connect Section Animation */
+.letsconnect {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 2s forwards;
+}
+
+/* Footer Animation */
+footer {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out 2.5s forwards;
+}
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.arrow {
+  animation: bounce 1s ease-in-out infinite;
+}
